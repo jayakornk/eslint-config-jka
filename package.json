@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-jk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jayakorn Karikan <jayakornk@gmail.com>",
+  "license": "MIT",
+  "description": "ESLint shareable config by jayakornk",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna:version": "lerna version --conventional-commits --yes",
+    "lerna:diff": "lerna diff"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
