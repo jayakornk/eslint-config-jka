@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/jayakornk/eslint-config-jka/compare/v1.1.1...v1.1.2) (2021-07-31)
+
+
+### Bug Fixes
+
+* **eslint-config-jka:** fix incorrect rule ([a3024ea](https://github.com/jayakornk/eslint-config-jka/commit/a3024ea7cf369768a48c8c6fa40d05db854dd68e))
+
+
+
+
+
 ## [1.1.1](https://github.com/jayakornk/eslint-config-jka/compare/v1.1.0...v1.1.1) (2021-07-31)
 
 
