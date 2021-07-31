@@ -43,7 +43,6 @@ module.exports = {
   rules: {
     // general ESLint rules
     'no-underscore-dangle': 'off',
-    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       'error',
@@ -62,6 +61,15 @@ module.exports = {
       {
         fn: 'it',
         withinDescribe: 'it',
+      },
+    ],
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: {
+          kebabCase: true,
+          pascalCase: true,
+        },
       },
     ],
   },
