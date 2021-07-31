@@ -41,13 +41,22 @@ module.exports = {
   ],
   plugins: ['simple-import-sort', 'import', 'es'],
   rules: {
+    // general ESLint rules
+    'no-underscore-dangle': 'off',
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    ],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicated': 'error',
+    'import/prefer-default-export': 'off',
     'jest/consistent-test-it': [
       'error',
       {
