@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "lerna:version": "lerna version --conventional-commits --yes",
-    "lerna:diff": "lerna diff"
+    "lerna:diff": "lerna diff",
+    "lerna:publish": "lerna publish from-package"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
