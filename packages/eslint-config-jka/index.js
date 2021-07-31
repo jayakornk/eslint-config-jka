@@ -54,8 +54,9 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'import/first': 'error',
     'import/newline-after-import': 'error',
-    'import/no-duplicated': 'error',
+    'import/no-duplicates': 'error',
     'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
     'jest/consistent-test-it': [
       'error',
       {
