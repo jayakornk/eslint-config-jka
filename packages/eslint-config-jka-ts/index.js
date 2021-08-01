@@ -22,6 +22,8 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', ignoreRestSiblings: true },
