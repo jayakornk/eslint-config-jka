@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/jayakornk/eslint-config-jka/compare/v1.1.2...v1.2.0) (2021-08-01)
+
+
+### Features
+
+* change printWidth to large number ([b7992a6](https://github.com/jayakornk/eslint-config-jka/commit/b7992a6806572646f7de6547cecdf3419f98b35d))
+* **eslint-config-jka:** turn off import/extensions ([decdfdb](https://github.com/jayakornk/eslint-config-jka/commit/decdfdbaa14dc9dd9649e7cc90af702fc97ba208))
+
+
+
+
+
 ## [1.1.2](https://github.com/jayakornk/eslint-config-jka/compare/v1.1.1...v1.1.2) (2021-07-31)
 
 
