@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/jayakornk/eslint-config-jka/compare/v1.2.0...v1.2.1) (2021-08-01)
+
+
+### Bug Fixes
+
+* **eslint-config-jka:** add rule to fix typescript linting error ([3fec0f0](https://github.com/jayakornk/eslint-config-jka/commit/3fec0f00909cdfff29efe0d4c6398b35d7f6b8a6))
+
+
+
+
+
 # [1.2.0](https://github.com/jayakornk/eslint-config-jka/compare/v1.1.2...v1.2.0) (2021-08-01)
 
 **Note:** Version bump only for package eslint-config-jka-ts
